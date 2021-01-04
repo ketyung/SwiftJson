@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104E895325A001A9006E5987 /* Menus.json in Resources */ = {isa = PBXBuildFile; fileRef = 104E895225A00127006E5987 /* Menus.json */; };
+		104E895925A00293006E5987 /* Tshirts.json in Resources */ = {isa = PBXBuildFile; fileRef = 104E895625A00207006E5987 /* Tshirts.json */; };
+		104E895D25A012B1006E5987 /* LoadRemoteJsonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E895C25A012B1006E5987 /* LoadRemoteJsonExample.swift */; };
+		104E8A2B25A1BB93006E5987 /* JsonWithDateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E8A2A25A1BB93006E5987 /* JsonWithDateExample.swift */; };
 		10A95DF8259EAE6500FF5E03 /* SwiftJsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95DE5259EAE5E00FF5E03 /* SwiftJsonApp.swift */; };
 		10A95DF9259EAE6500FF5E03 /* SwiftJsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95DE5259EAE5E00FF5E03 /* SwiftJsonApp.swift */; };
 		10A95DFA259EAE6500FF5E03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95DE6259EAE5E00FF5E03 /* ContentView.swift */; };
 		10A95DFB259EAE6500FF5E03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95DE6259EAE5E00FF5E03 /* ContentView.swift */; };
 		10A95DFC259EAE6500FF5E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A95DE7259EAE6500FF5E03 /* Assets.xcassets */; };
 		10A95DFD259EAE6500FF5E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A95DE7259EAE6500FF5E03 /* Assets.xcassets */; };
+		10A95E09259EAE8200FF5E03 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E08259EAE8200FF5E03 /* Structs.swift */; };
+		10A95E0A259EAE8200FF5E03 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E08259EAE8200FF5E03 /* Structs.swift */; };
+		10A95E0E259EB72800FF5E03 /* JsonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E0D259EB72800FF5E03 /* JsonProvider.swift */; };
+		10A95E0F259EB72800FF5E03 /* JsonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E0D259EB72800FF5E03 /* JsonProvider.swift */; };
+		10A95E13259EC0DD00FF5E03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E12259EC0DD00FF5E03 /* Extensions.swift */; };
+		10A95E14259EC0DD00FF5E03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E12259EC0DD00FF5E03 /* Extensions.swift */; };
+		10A95E18259EC5EF00FF5E03 /* TShirtPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */; };
+		10A95E19259EC5EF00FF5E03 /* TShirtPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		104E895225A00127006E5987 /* Menus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Menus.json; sourceTree = "<group>"; };
+		104E895625A00207006E5987 /* Tshirts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tshirts.json; sourceTree = "<group>"; };
+		104E895C25A012B1006E5987 /* LoadRemoteJsonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadRemoteJsonExample.swift; sourceTree = "<group>"; };
+		104E8A2A25A1BB93006E5987 /* JsonWithDateExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonWithDateExample.swift; sourceTree = "<group>"; };
 		10A95DE5259EAE5E00FF5E03 /* SwiftJsonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJsonApp.swift; sourceTree = "<group>"; };
 		10A95DE6259EAE5E00FF5E03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10A95DE7259EAE6500FF5E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +40,10 @@
 		10A95DF4259EAE6500FF5E03 /* SwiftJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A95DF6259EAE6500FF5E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10A95DF7259EAE6500FF5E03 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		10A95E08259EAE8200FF5E03 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		10A95E0D259EB72800FF5E03 /* JsonProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonProvider.swift; sourceTree = "<group>"; };
+		10A95E12259EC0DD00FF5E03 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TShirtPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,14 @@
 			children = (
 				10A95DE5259EAE5E00FF5E03 /* SwiftJsonApp.swift */,
 				10A95DE6259EAE5E00FF5E03 /* ContentView.swift */,
+				10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */,
+				104E895C25A012B1006E5987 /* LoadRemoteJsonExample.swift */,
+				10A95E08259EAE8200FF5E03 /* Structs.swift */,
+				104E8A2A25A1BB93006E5987 /* JsonWithDateExample.swift */,
+				10A95E0D259EB72800FF5E03 /* JsonProvider.swift */,
+				10A95E12259EC0DD00FF5E03 /* Extensions.swift */,
+				104E895225A00127006E5987 /* Menus.json */,
+				104E895625A00207006E5987 /* Tshirts.json */,
 				10A95DE7259EAE6500FF5E03 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -168,6 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104E895925A00293006E5987 /* Tshirts.json in Resources */,
+				104E895325A001A9006E5987 /* Menus.json in Resources */,
 				10A95DFC259EAE6500FF5E03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A95E18259EC5EF00FF5E03 /* TShirtPickerView.swift in Sources */,
+				10A95E13259EC0DD00FF5E03 /* Extensions.swift in Sources */,
+				10A95E09259EAE8200FF5E03 /* Structs.swift in Sources */,
 				10A95DFA259EAE6500FF5E03 /* ContentView.swift in Sources */,
+				104E8A2B25A1BB93006E5987 /* JsonWithDateExample.swift in Sources */,
+				10A95E0E259EB72800FF5E03 /* JsonProvider.swift in Sources */,
+				104E895D25A012B1006E5987 /* LoadRemoteJsonExample.swift in Sources */,
 				10A95DF8259EAE6500FF5E03 /* SwiftJsonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A95E19259EC5EF00FF5E03 /* TShirtPickerView.swift in Sources */,
+				10A95E14259EC0DD00FF5E03 /* Extensions.swift in Sources */,
+				10A95E0A259EAE8200FF5E03 /* Structs.swift in Sources */,
 				10A95DFB259EAE6500FF5E03 /* ContentView.swift in Sources */,
+				10A95E0F259EB72800FF5E03 /* JsonProvider.swift in Sources */,
 				10A95DF9259EAE6500FF5E03 /* SwiftJsonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -308,6 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;

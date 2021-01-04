@@ -11,7 +11,11 @@ import SwiftUI
 struct SwiftJsonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          //ContentView()
+           //TShirtPickerView()
+           //ScrollViewOfHexColor()
+           LoadRemoteJsonExample()
+            //JsonWithDateExample()
         }
     }
 }

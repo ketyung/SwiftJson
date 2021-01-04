@@ -1,0 +1,11 @@
+[
+    { "tshirt_color_in_hex": "#0000A0", "qty" : 12, "name" : "Dark Blue"},
+    { "tshirt_color_in_hex": "#a52a2a", "qty" : 10, "name" : "Brown"},
+    { "tshirt_color_in_hex": "#FF0000", "qty" : 5, "name" : "Red"},
+    { "tshirt_color_in_hex": "#00FF00", "qty" : 3, "name" : "Lime"},
+    { "tshirt_color_in_hex": "#FFA500", "qty" : 2, "name" : "Orange"},
+    { "tshirt_color_in_hex": "#808000", "qty" : 1, "name" : "Olive"},
+    { "tshirt_color_in_hex": "#2B547E", "qty" : 1, "name" : "Blue Jay"},
+    { "tshirt_color_in_hex": "#413839", "qty" : 1, "name" : "Black Cat"},
+    
+]

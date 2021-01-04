@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name" : "Apple TV", "imageName" : "appletv"},
+    { "id": 2, "name" : "Apple Watch", "imageName" : "applewatch"},
+    { "id": 3, "name" : "Car", "imageName" : "car"},
+    { "id": 4, "name" : "iPhone", "imageName" : "iphone"},
+]

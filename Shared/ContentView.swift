@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let menuItems = Bundle.main.decodeJson([MenuItem].self, fileName: "Menus.json")
+   
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack (alignment: .leading,  spacing: 20){
+          
+            
+            ForEach(menuItems) { item in
+            
+                HStack(spacing: 20) {
+                    
+                    Image(systemName: item.imageName)
+                    .frame(width: 30, height: 30)
+                    
+                    Text (item.name)
+            
+                }
+            
+            }
+
+        }
     }
 }
 
@@ -19,3 +38,32 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//JsonProvider.getMenuItems()
+
+/**
+ 
+ """
+ [
+     { "id": 1, "name" : "Apple TV", "imageName" : "appletv"},
+     { "id": 2, "name" : "Apple Watch", "imageName" : "applewatch"},
+     { "id": 3, "name" : "Car", "imageName" : "car"},
+     { "id": 4, "name" : "iPhone", "imageName" : "iphone"},
+ ]
+ """.decodeJson([MenuItem].self)
+ 
+ */
