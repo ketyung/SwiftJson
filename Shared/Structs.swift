@@ -26,7 +26,6 @@ struct TShirt : Decodable {
     
     var quantity : Int
     
-    
     enum CodingKeys: String, CodingKey {
        case name
        // Map the JSON key "tshirt_color_in_hex" to the Swift property name "hexColor"

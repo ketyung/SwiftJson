@@ -47,6 +47,7 @@ struct LoadRemoteJsonExample : View {
                     
                         URLSession.shared.decodeJson([MenuItem].self,
                            urlString: "https://techchee.com/somejsons/Menus.json",
+                           
                            completion: { result in
                             
                                 switch(result){

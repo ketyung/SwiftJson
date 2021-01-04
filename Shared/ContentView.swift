@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let menuItems = Bundle.main.decodeJson([MenuItem].self, fileName: "Menus.json")
-   
+
     var body: some View {
         
         VStack (alignment: .leading,  spacing: 20){

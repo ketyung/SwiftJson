@@ -144,7 +144,6 @@ public enum Result<Success, Failure: Error> {
 
 extension URLSession {
     
-    
     func decodeJson <T:Decodable> (_ type : T.Type , urlString : String ,
         completion: @escaping (Result<T, Error>)->Void,
         dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate,

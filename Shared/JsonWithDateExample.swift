@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct JsonWithDateExample : View {
 
     private let newsItems  = """
