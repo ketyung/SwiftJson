@@ -117,7 +117,12 @@ extension Bundle {
         do {
             let jsonData = try Data(contentsOf: url)
             
-            let result = try JSONDecoder().decode(T.self, from: jsonData)
+            let decoder = JSONDecoder()
+            decoder.dateDecodingStrategy = dateDecodingStrategy
+            decoder.keyDecodingStrategy = keyDecodingStrategy
+            
+            
+            let result = try decoder.decode(T.self, from: jsonData)
             
             return result
             //let jsonStr = try String(contentsOf: url)
@@ -166,7 +171,12 @@ extension URLSession {
             
                 do {
                     
-                    let results = try JSONDecoder().decode(T.self, from: data!)
+                    let decoder = JSONDecoder()
+                    decoder.dateDecodingStrategy = dateDecodingStrategy
+                    decoder.keyDecodingStrategy = keyDecodingStrategy
+                    
+                    
+                    let results = try decoder.decode(T.self, from: data!)
                     completion(.success(results))
                 }
                 catch {
