@@ -78,7 +78,7 @@ extension DateFormatter {
 extension String {
     
     
-    func decodeJson  <T:Decodable>  (_ type : T.Type,
+    func decodeJson  <T:Decodable>  (_ type : T.Type ,
         dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate,
         keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy = .useDefaultKeys) -> T {
         
@@ -90,7 +90,7 @@ extension String {
             decoder.dateDecodingStrategy = dateDecodingStrategy
             decoder.keyDecodingStrategy = keyDecodingStrategy
             
-            let result = try decoder.decode(T.self, from: jsonData)
+            let result = try decoder.decode(type, from: jsonData)
             
             return result
         }
@@ -122,7 +122,7 @@ extension Bundle {
             decoder.keyDecodingStrategy = keyDecodingStrategy
             
             
-            let result = try decoder.decode(T.self, from: jsonData)
+            let result = try decoder.decode(type, from: jsonData)
             
             return result
             //let jsonStr = try String(contentsOf: url)
@@ -149,7 +149,7 @@ public enum Result<Success, Failure: Error> {
 
 extension URLSession {
     
-    func decodeJson <T:Decodable> (_ type : T.Type , urlString : String ,
+    func decodeJson <T:Decodable> (_ type : T.Type = T.self, urlString : String ,
         completion: @escaping (Result<T, Error>)->Void,
         dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate,
         keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy = .useDefaultKeys)  {
@@ -176,7 +176,7 @@ extension URLSession {
                     decoder.keyDecodingStrategy = keyDecodingStrategy
                     
                     
-                    let results = try decoder.decode(T.self, from: data!)
+                    let results = try decoder.decode(type, from: data!)
                     completion(.success(results))
                 }
                 catch {

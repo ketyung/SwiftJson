@@ -70,7 +70,7 @@ extension TShirtPickerView {
         
         VStack (alignment: .leading, spacing: 20) {
        
-            let tshirts = Bundle.main.decodeJson([TShirt].self, fileName: "Tshirts.json")  //JsonProvider.getTShirts()
+            let tshirts = Bundle.main.decodeJson( [TShirt].self, fileName: "Tshirts.json")  //JsonProvider.getTShirts()
             
             Text("T-shirt Colors")
             .frame(width: 200, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
