@@ -25,6 +25,8 @@
 		10A95E14259EC0DD00FF5E03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E12259EC0DD00FF5E03 /* Extensions.swift */; };
 		10A95E18259EC5EF00FF5E03 /* TShirtPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */; };
 		10A95E19259EC5EF00FF5E03 /* TShirtPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */; };
+		10EB29DF25C586E9002D250E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB29DE25C586E9002D250E /* Menu.swift */; };
+		10EB29E425C58A77002D250E /* Items.json in Resources */ = {isa = PBXBuildFile; fileRef = 10EB29E225C58729002D250E /* Items.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		10A95E0D259EB72800FF5E03 /* JsonProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonProvider.swift; sourceTree = "<group>"; };
 		10A95E12259EC0DD00FF5E03 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TShirtPickerView.swift; sourceTree = "<group>"; };
+		10EB29DE25C586E9002D250E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		10EB29E225C58729002D250E /* Items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Items.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				10A95DE5259EAE5E00FF5E03 /* SwiftJsonApp.swift */,
 				10A95DE6259EAE5E00FF5E03 /* ContentView.swift */,
+				10EB29DE25C586E9002D250E /* Menu.swift */,
 				10A95E17259EC5EF00FF5E03 /* TShirtPickerView.swift */,
 				104E895C25A012B1006E5987 /* LoadRemoteJsonExample.swift */,
 				10A95E08259EAE8200FF5E03 /* Structs.swift */,
@@ -86,6 +91,7 @@
 				10A95E0D259EB72800FF5E03 /* JsonProvider.swift */,
 				10A95E12259EC0DD00FF5E03 /* Extensions.swift */,
 				104E895225A00127006E5987 /* Menus.json */,
+				10EB29E225C58729002D250E /* Items.json */,
 				104E895625A00207006E5987 /* Tshirts.json */,
 				10A95DE7259EAE6500FF5E03 /* Assets.xcassets */,
 			);
@@ -196,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EB29E425C58A77002D250E /* Items.json in Resources */,
 				104E895925A00293006E5987 /* Tshirts.json in Resources */,
 				104E895325A001A9006E5987 /* Menus.json in Resources */,
 				10A95DFC259EAE6500FF5E03 /* Assets.xcassets in Resources */,
@@ -223,6 +230,7 @@
 				10A95DFA259EAE6500FF5E03 /* ContentView.swift in Sources */,
 				104E8A2B25A1BB93006E5987 /* JsonWithDateExample.swift in Sources */,
 				10A95E0E259EB72800FF5E03 /* JsonProvider.swift in Sources */,
+				10EB29DF25C586E9002D250E /* Menu.swift in Sources */,
 				104E895D25A012B1006E5987 /* LoadRemoteJsonExample.swift in Sources */,
 				10A95DF8259EAE6500FF5E03 /* SwiftJsonApp.swift in Sources */,
 			);

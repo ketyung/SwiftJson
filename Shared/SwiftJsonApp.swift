@@ -12,11 +12,11 @@ struct SwiftJsonApp: App {
     var body: some Scene {
         WindowGroup {
         
-            
+           Menu()
         //ContentView()
            //TShirtPickerView()
            //ScrollViewOfHexColor()
-           LoadRemoteJsonExample()
+         //  LoadRemoteJsonExample()
             //JsonWithDateExample()
         }
     }

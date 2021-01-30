@@ -1,0 +1,7 @@
+[
+    { "title" : "Example 1 - Decode JSON stored in a String variable, with example of how to decode Date with specific format", "pushToViewType" : "example1"},
+    { "title" : "Example 2 - Load Json from Local Bundle and display on a VStack of Views", "pushToViewType" : "example2"},
+    { "title" : "Example 3 - Load Json from Remote URL and display on a List", "pushToViewType" : "example3"},
+    { "title" : "Example 4 - A T-shirt picker shown as a popup view with its data from a JSON file in local bundle" ,
+        "pushToViewType" : "example4"}
+]
